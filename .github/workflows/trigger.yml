@@ -16,4 +16,4 @@ jobs:
           workflow: benchmark.yaml
           repo: Eternal-Night-Archer/BenchmarkData
           token: ${{ secrets.PAT }}
-          inputs: '{ "repository": "baidu", "pr_id": 1, "url": "www.baidu.com" }'
+          inputs: '{ "repository": "baidu", "pr_id": "1", "url": "www.baidu.com" }'
